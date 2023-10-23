@@ -11,13 +11,15 @@ import { defaultToken } from "./config";
 
 const TokenCard = (): JSX.Element => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
-  const [estimatedETH, setEstimatedETH] = useState<number>(0);
+  const [currentCrypto, setEstimatedETH] = useState<number>(0);
   const [currentPriceINR, setCurrentPriceINR] = useState<number>(0);
   const [selectedToken, setSelectedToken] = useState<Config>(defaultToken);
 
   const handleModalToggler = () => {
     setIsModalOpen(false);
   };
+
+  const estimatedETH = currentCrypto / currentPriceINR || 0;
 
   const handleOpenModal = () => {
     setIsModalOpen(true);
@@ -40,7 +42,7 @@ const TokenCard = (): JSX.Element => {
     e
   ) => {
     const amount = +e.target.value;
-    setEstimatedETH(amount / currentPriceINR);
+    setEstimatedETH(amount);
   };
 
   const handleSubmit = useCallback(
@@ -48,7 +50,7 @@ const TokenCard = (): JSX.Element => {
       e.preventDefault();
       alert(
         "You have successfully bought " +
-          estimatedETH.toFixed(2) +
+          estimatedETH +
           ` ${selectedToken.abbreviation}`
       );
     },
