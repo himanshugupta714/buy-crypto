@@ -1,5 +1,5 @@
 import SearchIcon from "../../assets/icon/search";
-import styles from "./searchBar.module.css";
+import styles from "./search.module.css";
 
 const SearchBar = ({ onChange, value }: Props) => {
   return (

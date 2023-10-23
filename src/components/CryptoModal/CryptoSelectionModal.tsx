@@ -5,7 +5,7 @@ import CloseIcon from "../../assets/icon/close";
 import CryptoCard from "../cryptoCard";
 import { Config, config } from "./config";
 import { useState } from "react";
-import SearchBar from "../searchBar";
+import SearchBar from "../Search";
 
 const CryptoSelectionModal = ({
   isOpen,
