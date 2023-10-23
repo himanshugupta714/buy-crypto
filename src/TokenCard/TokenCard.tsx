@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 
-import { Config } from "../components/cryptoSelectionModal/config";
-import CryptoSelectionModal from "../components/cryptoSelectionModal";
+import { Config } from "../components/CryptoModal/config";
+import CryptoSelectionModal from "../components/CryptoModal";
 
 import arrowdown from "../assets/icon/arrowdown.svg";
 import Button from "../components/Button";
