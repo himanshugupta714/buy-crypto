@@ -1,0 +1,27 @@
+.container {
+  padding: 16px 120px 0px 24px;
+  background: #0b0819;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 16px 12px 0px 24px;
+  }
+}
+@media (max-width: 768px) {
+  .tab {
+    display: none;
+  }
+}
+.logo {
+  max-width: 178px;
+  max-height: 43px;
+  padding-bottom: 8px;
+}
+.button {
+  padding-bottom: 8px;
+  width: 150px;
+}

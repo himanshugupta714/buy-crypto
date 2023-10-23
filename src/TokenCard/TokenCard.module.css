@@ -1,0 +1,123 @@
+body {
+  background-color: #040406;
+}
+
+.container {
+  border-radius: 10px;
+  padding: 48px 40px;
+  background-color: #0b0819;
+  max-width: 390px;
+  margin: 150px auto 0 auto;
+  position: relative;
+  color: white;
+  background-image: url(../assets/icon/container.svg);
+  background-repeat: no-repeat;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.logo {
+  position: absolute;
+  top: -28px;
+  width: 70px;
+  height: 70px;
+}
+
+.tokenInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.currentPrice {
+  font-size: 14px;
+  font-weight: 400;
+  color: #c5c5c5;
+}
+
+.currentPriceINR {
+  font-size: 24px;
+  font-weight: 600;
+  color: #627eea;
+}
+
+.dropdown {
+  background-color: #1c1731;
+  padding: 18px 24px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdownWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.dropdownLogo {
+  width: 25px;
+  height: 25px;
+}
+
+.label {
+  color: #dcdcec;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.inputWrapper {
+  max-height: 60px;
+  padding: 13px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgba(110, 86, 248, 0.25);
+}
+
+.inputFieldInr {
+  color: #6f6f7e;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 142%;
+}
+
+.inputField {
+  color: #6f6f7e;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 142%;
+  border-radius: 10px;
+}
+
+.estimatedETH {
+  background-color: #1c1731;
+  padding: 14px 24px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.buyButton {
+  height: 50px;
+  font-size: 18px;
+}
+
+.buyButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
