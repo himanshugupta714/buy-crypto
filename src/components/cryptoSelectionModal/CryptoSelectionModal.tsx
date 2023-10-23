@@ -2,7 +2,7 @@ import ReactModal from "react-modal";
 
 import styles from "./styles.module.css";
 import CloseIcon from "src/assets/icon/close";
-import SearchBar from "src/components/searchBar";
+import SearchBar from "../searchBar";
 import CryptoCard from "../cryptoCard";
 import { Config, config } from "./config";
 import { useState } from "react";
