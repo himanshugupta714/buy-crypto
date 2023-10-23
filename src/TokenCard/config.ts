@@ -1,4 +1,4 @@
-import { Config } from "src/components/cryptoSelectionModal/config";
+import { Config } from "../components/cryptoSelectionModal/config";
 import ethereum from "../assets/Images/ethereum.png";
 
 export const defaultToken: Config = {

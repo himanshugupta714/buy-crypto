@@ -1,11 +1,11 @@
 import ReactModal from "react-modal";
 
 import styles from "./styles.module.css";
-import CloseIcon from "src/assets/icon/close";
-import SearchBar from "../searchBar";
+import CloseIcon from "../../assets/icon/close";
 import CryptoCard from "../cryptoCard";
 import { Config, config } from "./config";
 import { useState } from "react";
+import SearchBar from "../searchBar";
 
 const CryptoSelectionModal = ({
   isOpen,

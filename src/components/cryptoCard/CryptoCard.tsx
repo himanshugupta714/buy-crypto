@@ -1,6 +1,6 @@
 import styles from "./cryptoCard.module.css";
 
-import Tick from "src/assets/icon/tick";
+import Tick from "../../assets/icon/tick";
 
 const CryptoCard = ({
   alt,
